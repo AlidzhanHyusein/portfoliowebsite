@@ -6,12 +6,12 @@ import { motion } from 'framer-motion';
 
 export default function ProjectCard({ title, buttonText, buttonLink }) {
   return (
-    <motion.div
+    <motion.div  
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className='w-full h-full'
-    >  
+      className='w-full h-full '
+    > 
       <div className='shadow-2xl shadow-accent/40 rounded-4xl w-full h-[50vh] relative'>
         <h2 className='w-max mb-6 text-xl absolute -top-3 -left-3 font-[700] border-2 border-accent bg-accent/20 px-3 py-1 rounded-full text-accent'>
           {title}

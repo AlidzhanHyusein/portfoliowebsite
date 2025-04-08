@@ -3,7 +3,7 @@ import AboutPage from '../pages/AboutPage';
 
 export default function page() {
     return (
-        <div className='pt-32'>
+        <div className='md:pt-32 pt-10'>
             <AboutPage/>
         </div>
     )

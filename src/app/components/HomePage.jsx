@@ -14,7 +14,7 @@ export default function HomePage() {
 
 			<p className='md:max-w-2/3 font-[600] md:text-lg' >I'm a student at New Bulgarian University (NBU), where I'm learning C++, and I'm also studying Python at SoftUni. This repository contains my projects, exercises, and notes from my <span className='text-accent'>learning journey.</span></p>
 		
-			<Link className='mt-5 btn w-max' href="/project">Check out my projects.</Link>
+			<Link className='mt-5 btn w-max' href="/projects">Check out my projects.</Link>
 		</div>
 	)
 }

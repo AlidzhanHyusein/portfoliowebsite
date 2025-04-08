@@ -22,8 +22,8 @@ export default function projectpage() {
 
   return (
     <>
-    <div className='pt-36 w-[70rem] py-10  flex items-center mx-auto border-solid'>
-      <div className='rounded-4xl flex justify-around gap-10 px-10 w-full h-full shadow-2xl shadow-accent/50 pb-10 pt-5'>
+    <div className='md:pt-36 w-full md:w-[70rem] py-10 flex items-center mx-auto border-solid'>
+      <div className='rounded-4xl flex w-full flex-col md:flex-row justify-around gap-10 px-10 md:w-full md:h-full shadow-2xl shadow-accent/50 pb-10 pt-5'>
         {
           projects.map((item, index) => (
             <ProjectCard 
