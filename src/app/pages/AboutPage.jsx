@@ -80,7 +80,7 @@ export default function AboutPage() {
 				</div>
 			</div>
 
-			<div id='contact' className='neu-shadow h-65 md:h-full p-5 md:mr-20 rounded-3xl'>
+			<div id='contact' className='neu-shadow h-65 md:w-114 md:h-full p-5 md:mr-20 rounded-3xl'>
 				<h3 className='about-heading'>Contact</h3>
 				
 				<div className='flex gap-2'>
