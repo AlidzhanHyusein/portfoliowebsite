@@ -11,27 +11,27 @@ export default function AboutPage() {
 		<>
 		<div className='flex flex-col md:flex-row gap-5 items-center overflow-hidden md:overflow-visible'>
 			<div className='w-full z-100 md:w-1/2' >
-				<h1 className='w-3/4 md:w-full bg-gradient-to-l from-accent to-accent/60  text-white md:max-w-1/2 text-end pl-5 pr-10 py-3 shadow-2xl shadow-accent/50 rounded-r-full text-3xl font-[700] '>About me</h1>
+				<h1 className='w-3/4 md:w-full bg-gradient-to-l from-accent to-accent/60  text-white md:max-w-1/2 text-end pl-5 pr-10 py-3 md:-mt-20 shadow-2xl shadow-accent/50 rounded-r-full text-3xl font-[700] '>About me</h1>
 				
-				<div className='md:px-20 p-3 md:mt-10'>
-					<h2 className='text-xl md:text-6xl font-[700]'>Hi!</h2>
+				<div className='md:px-20 p-3 md:mt-15'>
+					<h2 className='text-xl md:text-6xl md:ml-30 font-[700]'>Hi!</h2>
 
-					<p className='mt-4 text-lg font-[600] '>I'm a student at New Bulgarian University (NBU), where I'm learning C++, and I'm also studying Python at SoftUni. This repository contains my projects, exercises, and notes from my learning journey.</p>
+					<p className='mt-10 md:ml-30 text-lg font-[600] mr:max-w-100 mr:absolute '>I'm a student at New Bulgarian University (NBU), where I'm learning C++, and I'm also studying Python at SoftUni. This repository contains my projects, exercises, and notes from my learning journey.</p>
 				</div>
 			</div>
 			
 
-			<div className='w-1/5 -mt-20 '>
+			<div className='w-1/5 m mr:-mt-20 md:px-30 '>
 				<div className='relative w-max mx-auto'>
-					<Image src={ProfileImage} alt='Picture of me' className='relative z-10 max-w-80  drop-shadow-2xl drop-shadow-black/50 rotate-7 rounded-[3rem]'/>
+					<Image src={ProfileImage} alt='Picture of me' className='relative z-10 max-w-80 drop-shadow-2xl drop-shadow-black/50 rotate-7 rounded-[3rem]'/>
 
 					<div className='absolute top-10 left-10 border-2 border-accent bg-accent/40 shadow-2xl shadow-accent/40 w-full h-full rotate-7 rounded-[3rem]'/>
 				</div>
 			</div>
 		</div>
 
-		<div className='md:px-20 px-3 mt-20 flex flex-col md:grid md:grid-cols-2 md:max-w-3/4 md:p-5 rounded-r-full gap-5 mx-auto'>
-			<div className='p-5 neu-shadow rounded-3xl '>
+		<div className='md:px-1 px-3 mt-15 flex flex-col md:grid md:grid-cols-2 md:max-w-3/4 md:p-5 gap-5 mx-auto'>
+			<div className='p-5 neu-shadow rounded-3xl md:mr-20'>
 				<h3 className='about-heading'>Technical skills</h3>
 				
 				<div className='grid grid-cols-3 gap-2 w-max'>
@@ -43,7 +43,7 @@ export default function AboutPage() {
 				</div>
 			</div>
 
-			<div className='neu-shadow  p-5 rounded-3xl'>
+			<div className='neu-shadow p-5 rounded-3xl md:mr-15'>
 				<h3 className='about-heading'>Education</h3>
 
 				<ul className='list-disc px-5 space-y-2'>
@@ -59,7 +59,7 @@ export default function AboutPage() {
 				</ul>
 			</div>
 
-			<div className='neu-shadow p-5 rounded-3xl'>
+			<div className='neu-shadow p-5 rounded-3xl md:mr-20'>
 				<h3 className='about-heading'>Languages</h3>
 				
 				<div className='flex flex-col gap-3'>
@@ -80,7 +80,7 @@ export default function AboutPage() {
 				</div>
 			</div>
 
-			<div id='contact' className='neu-shadow p-5 rounded-3xl'>
+			<div id='contact' className='neu-shadow h-65 md:h-full p-5 md:mr-20 rounded-3xl'>
 				<h3 className='about-heading'>Contact</h3>
 				
 				<div className='flex gap-2'>
